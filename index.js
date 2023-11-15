@@ -22,4 +22,5 @@ function convertEntitiesInParagraph(paragraph) {
     });
 }
 
-console.log(convertEntitiesInParagraph('&' + 'AMP' + ';'));
+console.log(convertEntitiesInParagraph('&' + 'int' + ';')); // &#x222B;
+console.log(convertEntitiesInParagraph('&' + 'AMP' + ';')); // &#x26;
